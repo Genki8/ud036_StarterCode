@@ -7,7 +7,7 @@ class Video(object):
         self.duration = duration
 
 class TvShow(Video):
-    def __init__(self,show_title, duration,season,episode,tv_station)
+    def __init__(self,show_title, duration,season,episode,tv_station):
         Video.__init__(self,show_title,duration)
         self.season = season
         self.episode = episode

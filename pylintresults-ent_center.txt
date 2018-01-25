@@ -1,0 +1,11 @@
+************* Module entertainment_center
+C: 12, 0: Line too long (209/100) (line-too-long)
+C: 19, 0: Line too long (203/100) (line-too-long)
+C: 25, 0: Line too long (206/100) (line-too-long)
+C: 33, 0: Line too long (168/100) (line-too-long)
+C: 43, 0: Line too long (172/100) (line-too-long)
+C: 51, 0: Line too long (211/100) (line-too-long)
+
+------------------------------------------------------------------
+Your code has been rated at 5.38/10 (previous run: 5.00/10, +0.38)
+

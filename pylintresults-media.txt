@@ -1,0 +1,12 @@
+************* Module media
+R:  6, 0: Too few public methods (0/2) (too-few-public-methods)
+R: 18, 4: Too many arguments (6/5) (too-many-arguments)
+E: 24, 4: Method has no argument (no-method-argument)
+R: 24, 4: Method could be a function (no-self-use)
+R: 15, 0: Too few public methods (1/2) (too-few-public-methods)
+R: 33, 4: Too many arguments (6/5) (too-many-arguments)
+R: 30, 0: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+

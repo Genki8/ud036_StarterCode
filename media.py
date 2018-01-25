@@ -1,7 +1,10 @@
+"""the intended purpose of the media module is to ...."""
+
 import webbrowser
 
 
 class Video(object):
+    """the intended purpose of the Video class is to ...."""
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, title, duration):
@@ -10,6 +13,8 @@ class Video(object):
 
 
 class TvShow(Video):
+    """the intended purpose of the media TvShow class is to ...."""
+
     def __init__(self, show_title, duration, season, episode, tv_station):
         Video.__init__(self, show_title, duration)
         self.season = season
@@ -17,18 +22,22 @@ class TvShow(Video):
         self.tv_station = tv_station
 
     def get_local_listing():
-        # do something
-        print("something happens")
+        """the intended purpose of the get_local_listing function is..."""
+
+        print"something happens"
 
 
 class Movie(Video):
     """ This class provides a way to store movie related information """
 
-    def __init__(self, movie_title, duration, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, duration, movie_storyline, poster_image,
+                 trailer_youtube):
         Video.__init__(self, movie_title, duration)
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
+        """ shows the movie trailer for an object of type Movie"""
+
         webbrowser.open(self.trailer_youtube_url)

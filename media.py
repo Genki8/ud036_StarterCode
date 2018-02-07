@@ -1,10 +1,10 @@
-"""the intended purpose of the media module is to ...."""
+"""defines several classes for different media mediums"""
 
 import webbrowser
 
 
 class Video(object):
-    """the intended purpose of the Video class is to ...."""
+    """ This class provides a way to store general video related information"""
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, title, duration):
@@ -13,7 +13,7 @@ class Video(object):
 
 
 class TvShow(Video):
-    """the intended purpose of the media TvShow class is to ...."""
+    """ This class provides a way to store tv show related information """
 
     def __init__(self, show_title, duration, season, episode, tv_station):
         Video.__init__(self, show_title, duration)
@@ -22,7 +22,7 @@ class TvShow(Video):
         self.tv_station = tv_station
 
     def get_local_listing():
-        """the intended purpose of the get_local_listing function is..."""
+        """functionality in development"""
 
         print"something happens"
 

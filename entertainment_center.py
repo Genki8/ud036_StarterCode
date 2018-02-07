@@ -1,9 +1,9 @@
-"""the entertainment_center module is intended to run and generate the content of the Movie trailers website"""
+"""generates the content of the Movie trailers website"""
 import fresh_tomatoes
 import media
 
 def main():
-    """the main function"""    
+    """Initializes movie objects in an array and passes to fresh_tomatoes"""    
 
     the_matrix = media.Movie("The Matrix", "1 hour",
                              "A computer hacker learns from mysterious rebels "

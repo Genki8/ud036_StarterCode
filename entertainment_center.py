@@ -1,19 +1,16 @@
-"""the entertainment_center module is intended for ...."""
+"""the entertainment_center module is intended to run and generate the content of the Movie trailers website"""
 import fresh_tomatoes
 import media
-import tmdbsimple as tmdb
-
 
 def main():
-    """the main function"""
-    tmdb.API_KEY = '29805fa04b1f162413128f732a7ae927'
-	
+    """the main function"""    
+
     the_matrix = media.Movie("The Matrix", "1 hour",
                              "A computer hacker learns from mysterious rebels "
                              "about the true nature of his reality and his "
                              "role in the war against its controllers.",
                              "https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
-                             "https://www.youtube.com/watch?v=m8e-FF8MsqU")
+                             "https://www.youtube.com/watch?v=m8e-FF8MsqU") 
 
     interstellar = media.Movie("Interstellar", "1 hour",
                                "A team of explorers travel through a wormhole"
@@ -57,11 +54,6 @@ def main():
     movies = [rick_roll, dumb_and_dumber, interstellar,
               the_equalizer, shawshank_redemption, the_matrix]
     fresh_tomatoes.open_movies_page(movies)
-    # print media.Movie.VALID_RATINGS
-    # print media.Movie.__doc__
-    # print media.Movie.__name__
-    # print the_matrix.title
-
 
 if __name__ == '__main__':
     main()

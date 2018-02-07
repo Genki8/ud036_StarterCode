@@ -2,15 +2,16 @@
 import fresh_tomatoes
 import media
 
+
 def main():
-    """Initializes movie objects in an array and passes to fresh_tomatoes"""    
+    """Initializes movie objects in an array and passes to fresh_tomatoes"""
 
     the_matrix = media.Movie("The Matrix", "1 hour",
                              "A computer hacker learns from mysterious rebels "
                              "about the true nature of his reality and his "
                              "role in the war against its controllers.",
                              "https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",  # NOQA
-                             "https://www.youtube.com/watch?v=m8e-FF8MsqU") 
+                             "https://www.youtube.com/watch?v=m8e-FF8MsqU")
 
     interstellar = media.Movie("Interstellar", "1 hour",
                                "A team of explorers travel through a wormhole"
